@@ -5,9 +5,9 @@ Fornece uma estrutura dinâmica, crescendo e diminuindo de acordo com a necessid
 O acesso aos valores é somente feito de forma sequencial, só sendo possivel realizar uma leitura da esquerda para a direita (começando pelo header e indo até o elemento desejado). Isto agrega uma certa complexidade de implementação
 
 ## Lista de pilhagem (Stack)
-Pilha é uma estrutura de dados ordenada que o último elemento inserido será o primeiro a ser retirado. É eficiente na resolução de problemas que exigem a característica LIFO (Last in first out). Também podemos inferir que criar uma lista de pilhagem é algo simples, não possuindo muitas dificuldades na escrita do seu código.
+Pilha é uma estrutura de dados ordenada que o último elemento inserido será o primeiro a ser retirado (O último elemento adicionado será sempre o primeiro). É eficiente na resolução de problemas que exigem a característica LIFO (Last in first out). Também podemos inferir que criar uma lista de pilhagem é algo simples, não possuindo muitas dificuldades na escrita do seu código.
 Uma analogia seria o histórico de seu navegador, onde o último acesso feito aparece no topo da lista.
 
-## Lista de fila ()
-Esta estrutura de dados ordenada é eficiente em problemas com características de FIFO (First in first out), onde o primeiro elemento inserido será o primeiro a ser retirado. A fila possui duas extermidades: uma por onde é feita a inserção de elementos (o fim da fila) e outra por onde é feita a remoção de elementos (início da fila).
+## Lista de fila (Queue)
+Esta estrutura de dados ordenada é eficiente em problemas com características de FIFO (First in first out), onde o primeiro elemento inserido será o primeiro a ser retirado (O ultimo elemento será sempre o último a ser adicionado). A fila possui duas extermidades: uma por onde é feita a inserção de elementos (o fim da fila) e outra por onde é feita a remoção de elementos (início da fila).
 A analogia para a lista de fila é a fila de atendimento bancário, onde o primeiro cliente será o primeiro a ser atendido, e o 3,4,5.. clientes deverão esperar o atendimento em ordem.
