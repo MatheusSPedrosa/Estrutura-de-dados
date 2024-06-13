@@ -37,9 +37,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BalanceamentoDeValores.executor": "Run",
     "Application.BinarySearchTree.executor": "Run",
+    "Application.HighestNodeValue.executor": "Run",
     "Application.LinkedList.executor": "Run",
     "Application.Queue.executor": "Run",
+    "Application.QueueReverse.executor": "Run",
     "Application.Stack.executor": "Run",
     "Application.Tree.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -48,7 +51,20 @@
     "onboarding.tips.debug.path": "C:/Users/mathe/IdeaProjects/EstruturaDeDados/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.HighestNodeValue">
+    <configuration name="BalanceamentoDeValores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.BalanceamentoDeValores" />
+      <module name="EstruturaDeDados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.BinarySearchTree" />
       <module name="EstruturaDeDados" />
@@ -62,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.LinkedList" />
+    <configuration name="HighestNodeValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.HighestNodeValue" />
       <module name="EstruturaDeDados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,25 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.Queue" />
+    <configuration name="QueueReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.QueueReverse" />
       <module name="EstruturaDeDados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.Stack" />
-      <module name="EstruturaDeDados" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HighestNodeValue" />
+        <item itemvalue="Application.QueueReverse" />
+        <item itemvalue="Application.BalanceamentoDeValores" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.Tree" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.Queue" />
-        <item itemvalue="Application.Stack" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718310085692</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <option name="closed" value="true" />
+      <created>1718311456352</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718311456352</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
