@@ -9,9 +9,7 @@ Dada uma árvore binária, encontre o maior valor em cada nível.
 */
 
 package exercises;
-
 import dataStructure.Tree;
-
 import java.util.ArrayList;
 import java.util.List;
 
