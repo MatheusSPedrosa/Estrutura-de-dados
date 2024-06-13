@@ -192,8 +192,8 @@ public class LinkedList {
 
 //        list.print();
 //        list.set(1, "elemento 0.5");
-//
-//        list.print();
+////
+        list.print();
     }
 
 }
