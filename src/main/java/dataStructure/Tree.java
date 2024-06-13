@@ -21,7 +21,7 @@ public class Tree {
         }
     }
 
-    // Estrutura básica de uma árvore binária
+    // Estrutura para adicionar nós à arvore
     public void insert(int value) {
         if (root == null) root = new Node(value);
         else {
