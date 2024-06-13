@@ -6,11 +6,9 @@ public class LinkedList {
     private Node tail;
     private int length;
 
-
     class Node {
         String data;
         Node next;
-
         Node(String data) {
             this.data = data;
         }
@@ -45,7 +43,6 @@ public class LinkedList {
     public void getLength() {
         System.out.println("Tamanho: " + this.length);
     }
-
 
     // Exibir a lista
     public void print () {
@@ -171,7 +168,6 @@ public class LinkedList {
 
         return temp;
     }
-
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList("elemento 1");
