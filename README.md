@@ -1,4 +1,4 @@
-# Estudo sobre Estruturas de dados
+# Estudo sobre estruturas de dados
 
 ## Lista ligada ou Lista encadeada (Linked List)
 Fornece uma estrutura dinâmica, crescendo e diminuindo de acordo com a necessidade exigida. Isto faz com que a utilização de memória do software seja muito eficaz, podendo se adaptar ao que for de fato necessário sem ocorrer um desperdício. Também é utilizada na construção de outras estruturas, como as estruturas de Pilhas e as Filas.
