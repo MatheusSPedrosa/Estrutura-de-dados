@@ -55,7 +55,7 @@ public class LinkedList {
             System.out.println(temp.data);
             temp = temp.next;
         }
-        System.out.println("######### LISTA ########");
+        System.out.println("######### LISTA ########\n");
     }
 
     // Adicionar a lista
