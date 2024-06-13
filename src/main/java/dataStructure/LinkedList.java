@@ -2,7 +2,6 @@ package dataStructure;
 
 public class LinkedList {
 
-
     private Node head;
     private Node tail;
     private int length;
@@ -83,7 +82,6 @@ public class LinkedList {
     temp = tail.next;
     tail.next = null;
     length--;
-
         if (length == 0) {
            head = null;
             tail = null;
@@ -98,7 +96,6 @@ public class LinkedList {
         head = head.next;
         temp.next = null;
         length--;
-
         if (length == 0) {
              head = null;
              tail = null;
@@ -165,7 +162,6 @@ public class LinkedList {
 
         Node prev = get(index -1);
         Node temp = prev.next;
-
         prev.next = temp.next;
         temp.next = null;
         length--;
