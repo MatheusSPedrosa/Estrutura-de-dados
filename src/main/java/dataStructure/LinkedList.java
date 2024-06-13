@@ -23,6 +23,7 @@ public class LinkedList {
         tail = newNode;
     }
 
+    // Método para puxar o Head da lista
     public void getHead() {
         if (this.head == null) {
             System.out.println("Lista vazia.");
@@ -31,6 +32,7 @@ public class LinkedList {
         }
     }
 
+    // Método para puxar o tail da lista
     public void getTail() {
         if (this.tail == null) {
             System.out.println("Lista vazia.");
@@ -39,6 +41,7 @@ public class LinkedList {
         }
     }
 
+    // Método para puxar o tamanho da lista
     public void getLength() {
         System.out.println("Tamanho: " + this.length);
     }
