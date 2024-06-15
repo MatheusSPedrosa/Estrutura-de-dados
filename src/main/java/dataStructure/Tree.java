@@ -104,10 +104,10 @@ public class Tree {
     tree.insert(77);
 
         System.out.println("########");
-//        tree.inOrder();
-//        tree.preOrder();
-//        tree.posOrder();
-//        tree.BFS();
+       tree.inOrder();
+       tree.preOrder();
+       tree.posOrder();
+       tree.BFS();
         System.out.println("########");
 
 
